@@ -1,0 +1,275 @@
+{
+    "gameStats": {
+        "level": 4,
+        "kicks": 0,
+        "statueDone": false,
+        "saveFile": "test.json"
+    },
+    "levels": {
+        "0": {
+            "state": 4,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "3": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "1": {
+            "state": 4,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "3": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "2": {
+            "state": 4,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "3": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "3": {
+            "state": 8,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "1": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "3": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "6": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "7": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "8": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "9": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "10": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "11": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "4": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "5": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        }
+    },
+    "inventory": {
+        "clothes": {
+            "name": "your clothes",
+            "inInv": "Your clothes - a set of nice boots, pants, and shirt.",
+            "level": "0",
+            "key": "4",
+            "drop": "You take off your clothes and leave them neatly folded on the ground.",
+            "take": "You pick your clothes up, dust them off, and put them on again."
+        },
+        "statue piece": {
+            "name": "left arm of joko",
+            "type": "statue",
+            "inInv": "The left arm of your Joko statue.",
+            "level": "0",
+            "key": "0",
+            "drop": "How dare you drop a piece of Palawa Joko's statue?!",
+            "take": "You pick up the left arm again. Good for you."
+        },
+        "statue bit": {
+            "name": "joko's chest",
+            "type": "statue",
+            "inInv": "The glorious chest of Palawa Joko! Sadly, he's missing his legs, arms, and head.",
+            "level": "1",
+            "key": "5",
+            "take": "You pick up the statue piece again. Good for you.",
+            "drop": "How dare you drop a piece of Joko's magnificent statue?! .. apparently like this, because, you drop it to the ground."
+        },
+        "statue fragment": {
+            "name": "joko's legs",
+            "type": "statue",
+            "inInv": "The legs of Palawa Joko!",
+            "level": "2",
+            "key": "4",
+            "take": "You pick the legs up again. Good for you.",
+            "drop": "You kick the statue fragment. Being the legs and all, it kicks you right back. What..how..?"
+        },
+        "statue part": {
+            "name": "right arm of joko",
+            "type": "statue",
+            "inInv": "The head and right arm of Palawa Joko, finely sculpted from pale stone.",
+            "take": "You pick up the statue piece.",
+            "drop": "You drop a piece of Palawa Joko. Filthy heretic.",
+            "level": "3",
+            "key": "8"
+        }
+    },
+    "dropped": {}
+}

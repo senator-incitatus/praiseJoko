@@ -1,0 +1,238 @@
+{
+    "gameStats": {
+        "level": 0,
+        "kicks": 0,
+        "statueDone": false
+    },
+    "levels": {
+        "0": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": -1,
+                    "keyAction": false,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "keyAction": false,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "3": {
+                    "visibility": -1,
+                    "keyAction": false,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "1": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "3": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "keyAction": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "keyAction": false,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "keyAction": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "2": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "keyAction": false,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": -1,
+                    "keyAction": false,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "3": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "keyAction": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "3": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "1": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "2": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "3": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "6": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "7": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "8": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "9": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "10": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "11": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "4": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        },
+        "5": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        }
+    },
+    "inventory": {
+        "clothes": {
+            "name": "your clothes",
+            "inInv": "Your clothes - a set of nice boots, pants, and shirt.",
+            "level": "0",
+            "key": "4",
+            "drop": "You take off your clothes and leave them neatly folded on the ground.",
+            "take": "You pick your clothes up, dust them off, and put them on again."
+            }
+        },
+    "dropped": {}
+}

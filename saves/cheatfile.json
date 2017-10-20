@@ -1,0 +1,432 @@
+{
+    "gameStats": {
+        "level": 4,
+        "kicks": 0,
+        "statueDone": true,
+        "saveFile": "cheatfile.json"
+    },
+    "levels": {
+        "0": {
+            "state": 3,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "3": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "1": {
+            "state": 3,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "3": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "2": {
+            "state": 4,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "keyAction": true,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "2": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                },
+                "3": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "keyAction": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "3": {
+            "state": 7,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "1": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "2": {
+                    "visibility": -1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "3": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "4": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "5": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                },
+                "6": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "7": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "8": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "9": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false,
+                    "keyAction": true
+                },
+                "10": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                },
+                "11": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false,
+                    "keyAction": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "4": {
+            "state": 2,
+            "finished": true,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": true,
+            "praised": true
+        },
+        "5": {
+            "state": 0,
+            "finished": false,
+            "objects": {
+                "0": {
+                    "visibility": 1,
+                    "inInv": true,
+                    "droppedElsewhere": false
+                }
+            },
+            "allDone": false,
+            "praised": false
+        }
+    },
+    "inventory": {
+        "clothes": {
+            "name": "your clothes",
+            "inInv": "Your clothes - a set of nice boots, pants, and shirt.",
+            "level": "0",
+            "key": "4",
+            "drop": "You take off your clothes and leave them neatly folded on the ground.",
+            "take": "You pick your clothes up, dust them off, and put them on again."
+        },
+        "flowers": {
+            "name": "flower crown",
+            "inInv": "A bunch of orange, hardy desert shrub scrubby flowers. You've tucked one of them behind your ear, the rest are in your satchel.",
+            "invUse": {
+                "onLevel": "4",
+                "state": 1,
+                "key": "use",
+                "keyAction": "You make a little flower crown of your surplus flowers, and reverently place them your restored statue's head. Praise be, the last Primeval King has a flower crown!",
+                "use": "You smell the flowers.",
+                "whenDone": "allDone",
+                "thing": "2",
+                "level": "0"
+            },
+            "level": "0",
+            "key": "2",
+            "drop": "You drop the flower crown, but keep the one tucked behind your ear",
+            "take": "You pick up the flower crown again."
+        },
+        "bag": {
+            "name": "thief's bag",
+            "inInv": "A small leather bag. It is discolored here and there, as if it has been left out in the rain, or sunlight. A few of the seams have begun to crack.",
+            "level": "0",
+            "key": "3",
+            "drop": "You drop the nondescript bag to the ground.",
+            "take": "You pick up the offending bag again, reattaching it to your belt."
+        },
+        "coin": {
+            "name": "foreign coin",
+            "inInv": "A small, round coin. It glints dully.",
+            "level": "1",
+            "key": "1",
+            "drop": "You drop the coin, and hope that it hasn't stolen your soul.",
+            "take": "It's irresistible, isn't it..? You reach for the coin again, and there, you hesitate. What would the Mordant Crescent say..? Best not to tell them. You grab the coin and stuff it back into a pocket."
+        },
+        "book": {
+            "name": "book of the sacred rites",
+            "inInv": "It probably wasn't theirs to begin with. The cover depicts..something. Looks like an Awakened.",
+            "level": "1",
+            "key": "2",
+            "drop": "You let the book fall to the ground. It probably wasn't useful anyway. Probably.",
+            "take": "You pick the book up. Why the heretics had it, you don't know, but you have a suspicion. You don't like it. Carefully, you put the book in your satchel."
+        },
+        "chalk": {
+            "name": "white chalk stick",
+            "inInv": "A well-used stick of white chalk, not much longer than your thumb.",
+            "invUse": {
+                "onLevel": "2",
+                "state": 2,
+                "key": "use",
+                "keyAction": "You scribble 'PRAISE JOKO' on every wall available. As if in answer of this, a piece of the statue falls onto your head. Where it came from, you have no idea.",
+                "use": "You write the praise of Palawa Joko on your chest. For Joko!",
+                "whenDone": "4",
+                "thing": "3",
+                "level": "1"
+            },
+            "level": "1",
+            "key": "3",
+            "drop": "You drop the bit of chalk.",
+            "take": "It'll get your fingers white, but, who cares? You pick up the piece of chalk and place it in your satchel."
+        },
+        "smelly sock": {
+            "name": "heretic's sock",
+            "inInv": "It is made from some a very soft material, but it smells too much like the inside of someone's boot. It is also blue.",
+            "invUse": {
+                "onLevel": "4",
+                "state": 1,
+                "key": "use",
+                "keyAction": "You decide to put the smelly sock on Joko, gently pulling it on to one of his feet. It's a tad too big for the small statue. You hope he won't mind the smell.",
+                "use": "You flap the sock in the air, hoping to get some of the bad smell out.",
+                "whenDone": "allDone",
+                "thing": "4",
+                "level": "1"
+            },
+            "level": "1",
+            "key": "4",
+            "take": "You decide to keep the sock.",
+            "drop": "On second thoughts, the sock smells so much, so you drop it."
+        },
+        "sock": {
+            "name": "blue sock",
+            "inInv": "A soft blue sock. It doesn't smell that bad.",
+            "invUse": {
+                "onLevel": "4",
+                "state": 1,
+                "key": "use",
+                "keyAction": "You touch the sock thoughtfully for a second, before pulling it onto one of Joko's feet. It is a nice color. You hope he'll appreciate it. It is also ridiculously oversized for the statue, but that's just semantics.",
+                "use": "You take the sock out and admire its color.",
+                "whenDone": "allDone",
+                "thing": "2",
+                "level": "2"
+            },
+            "take": "You think it might be a nice sock for colder days, and stuff it into your satchel.",
+            "drop": "The sock was too much of a burden, and you drop it.",
+            "level": "2",
+            "key": "2"
+        },
+        "fork": {
+            "name": "random fork",
+            "inInv": "A standard-issue fork.",
+            "take": "You pick up the fork. Who knows when an extra fork could come in handy?",
+            "drop": "On second thoughts, let's not go to Forkelot. You drop it to the ground.",
+            "level": "2",
+            "key": "3"
+        },
+        "lung": {
+            "name": "lungs",
+            "inInv": "A set of somewhat preserved lungs.",
+            "take": "You take the lungs. Why not?",
+            "drop": "You decide against carrying the half-preserved organs of another person on your body, and drop them on the ground.",
+            "level": "3",
+            "key": "4"
+        },
+        "lung jar slivers": {
+            "name": "lung jar sliver",
+            "inInv": "A ceramic sliver with an inlay of gold in cross-hatch patterns.",
+            "take": "You pocket a piece of the shattered jar.",
+            "drop": "You think better of stealing things you've destroyed, and drop the piece.",
+            "level": "3",
+            "key": "3"
+        },
+        "liver": {
+            "name": "someone's liver",
+            "inInv": "It's kind of dark red and blob-shaped.",
+            "take": "You pick the sort-of-slimy liver up, and put it in your pack.",
+            "drop": "You decide against carrying a liver with you, and deposit it. You're not too particular about where it ends up.",
+            "level": "3",
+            "key": "10"
+        },
+        "red sock": {
+            "name": "red sock",
+            "inInv": "A bright red sock. It is soft and smells of death.",
+            "invUse": {
+                "onLevel": "4",
+                "state": 1,
+                "key": "use",
+                "keyAction": "You wonder where Joko would like a red sock, but as you only have the one and don't want to make his socks not match, so you wrap it around his neck like a scarf.",
+                "use": "You feel the sock in your pocket. It's so..nice.",
+                "whenDone": "allDone",
+                "thing": "11",
+                "level": "3"
+            },
+            "take": "You think one can't have too many socks, least of all in bright colors, so you pocket it with a smile.",
+            "drop": "You weren't such a big fan of red socks after all, and toss it away.",
+            "level": "3",
+            "key": "11"
+        },
+        "Statue of Palawa Joko": {
+            "name": "joko!",
+            "inInv": "Your statue of King Joko the Eternal Monarch of All.",
+            "level": "5",
+            "thing": "0"
+        }
+    },
+    "dropped": {
+        "statue piece": {
+            "name": "left arm of joko",
+            "type": "statue",
+            "inInv": "The left arm of your Joko statue.",
+            "level": "0",
+            "key": "0",
+            "drop": "How dare you drop a piece of Palawa Joko's statue?!",
+            "take": "You pick up the left arm again. Good for you.",
+            "origName": "statue piece"
+        },
+        "statue bit": {
+            "name": "joko's chest",
+            "type": "statue",
+            "inInv": "The glorious chest of Palawa Joko! Sadly, he's missing his legs, arms, and head.",
+            "level": "1",
+            "key": "5",
+            "take": "You pick up the statue piece again. Good for you.",
+            "drop": "How dare you drop a piece of Joko's magnificent statue?! .. apparently like this, because, you drop it to the ground.",
+            "origName": "statue bit"
+        },
+        "statue fragment": {
+            "name": "joko's legs",
+            "type": "statue",
+            "inInv": "The legs of Palawa Joko!",
+            "level": "2",
+            "key": "4",
+            "take": "You pick the legs up again. Good for you.",
+            "drop": "You kick the statue fragment. Being the legs and all, it kicks you right back. What..how..?",
+            "origName": "statue fragment"
+        },
+        "statue part": {
+            "name": "right arm of joko",
+            "type": "statue",
+            "inInv": "The head and right arm of Palawa Joko, finely sculpted from pale stone.",
+            "take": "You pick up the statue piece.",
+            "drop": "You drop a piece of Palawa Joko. Filthy heretic.",
+            "level": "3",
+            "key": "8",
+            "origName": "statue part"
+        }
+    }
+}

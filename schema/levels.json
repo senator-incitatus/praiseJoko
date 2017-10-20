@@ -1,0 +1,555 @@
+{
+    "0" : {
+        "description" : ["You take a moment to catch your breath, doubling over. The rough sand-and-gravel path leading up the next slope has been disturbed, likely by the statue-breaking heretics. After a few moments, you straighten up again, to survey your surroundings. The moon is sinking, but dawn is not yet here.", "At least you are making some kind of progress, right? Joko has not abandoned you, despite the fact that his statue has been terribly wronged. Maybe Joko is so forgiving because you are doing your best to fix the problem... You wipe the sweat from your brow, and cling to that thought."],
+        "image" : [" _.,-*~'^'~*-,._      (                 _.,-*~'^'~*-,._",
+		"|               '*-,._            _.,-*'               '-,._",
+		"|                     '*-,.__.,-*'                          '*-,.__.,-*,",
+		"|                                                                      |",
+		"`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'"
+	],
+        "toSee" : ["Tracks lead up the gentle slope. There's a few flowers growing to your left. A few sets of tracks suddenly veer off, passing near the flowers.", "A small bag has been dropped in the hardy grasses next to the trail.", "Praise Joko! Or.. praise Joko's left arm, for that's the piece you found in the bag.", "The tracks left by your thieving heretics lead onwards. You should follow it."],
+        "objects" : [
+            {"Statue piece" : {
+                "description" : "The left arm of your Joko statue",
+                "commands" : ["inspect", "take", "kick", "drop"],
+                "inspect" : "Never was there a finer left arm, except on the real King Joko himself, of course.",
+                "kick" : "How dare you kick a piece of the statue of King Joko?\nA chill travels down your spine. Maybe someone noticed. Maybe King Joko himself noticed. He does, after all, know everything.",
+                "take" : "",
+                "key" : "take",
+                "keyAction" : "Reverently, you take the broken-off left arm of Joko and stuff it into your satchel. Don't worry, little Joko arm, you'll be safe now...",
+                "whenDone" : "allDone",
+                "inventory" : {
+                    "name" : "left arm of joko",
+                    "type" : "statue",
+                    "inInv" : "The left arm of your Joko statue.",
+                    "level" : "0",
+                    "key" : "0",
+                    "drop" : "How dare you drop a piece of Palawa Joko's statue?!",
+                    "take" : "You pick up the left arm again. Good for you."
+                    }
+                }
+            },
+            {"Tracks" : {
+                "description" : "It is difficult to make out the number of feet responsible for the tracks, but they're more than two, that's for sure.",
+                "commands" : ["inspect"],
+                "inspect" : "It was an uncharacteristically wet evening, so the tracks are very visible. On closer inspection, it looks like four set of them. Could these be your heretics?",
+                "key" : "inspect",
+                "keyAction" : "What's that..? As you beat through the surrounding grasses, you find a small bag.",
+                "whenDone" : "3"
+                }
+            },
+            {"Flowers" : {
+                "description" : "Some orange and hardy desert-like scrubby flowering plant. Nothing extravagant.",
+                "commands" : ["inspect", "take", "kick", "drop", "use"],
+                "inspect" : "They actually have a rather pleasant smell.",
+                "kick" : "You flatten the poor desert shrubs with a well-placed kick, but it doesn't seem to either alleviate your frustration, nor actually harm the hardy flowers.",
+                "take" : "You pick a flower, and stuff it behind your ear. You pick a few more, for good measure, and stuff them into your satchel.",
+                "inventory" : {
+                    "name" : "flower crown",
+                    "inInv" : "A bunch of orange, hardy desert shrub scrubby flowers. You've tucked one of them behind your ear, the rest are in your satchel.",
+                    "invUse" : {"onLevel": "4", "state": 1, "key": "use", "keyAction": "You make a little flower crown of your surplus flowers, and reverently place them your restored statue's head. Praise be, the last Primeval King has a flower crown!", "use": "You smell the flowers.", "whenDone": "allDone", "thing": "2", "level": "0"},
+                    "level" : "0",
+                    "key" : "2",
+                    "drop" : "You drop the flower crown, but keep the one tucked behind your ear",
+                    "take" : "You pick up the flower crown again."
+                    }
+                }
+            },
+            {"Bag" : {
+                "description" : "A small leather bag, likely dropped without someone noticing.",
+                "commands" : ["inspect", "open", "take", "drop"],
+                "inspect" : "It is discolored here and there, as if it has been left out in the rain, or sunlight. A few of the seams have begun to crack.",
+                "open" : "The bag is surprisingly smooth on the inside.",
+                "take" : "Shrugging, you take the offending bag, and tie it to your belt. Who knows, it might be useful.",
+                "inventory" : {
+                    "name" : "thief's bag",
+                    "inInv" : "A small leather bag. It is discolored here and there, as if it has been left out in the rain, or sunlight. A few of the seams have begun to crack.",
+                    "level" : "0",
+                    "key" : "3",
+                    "drop" : "You drop the nondescript bag to the ground.",
+                    "take" : "You pick up the offending bag again, reattaching it to your belt."
+                },
+                "key" : "open",
+                "keyAction" : "You open the bag, and reach inside. Your hand closes on cool, familiar stone. You feel a flutter in your stomach. Has Joko provided once more..? You pull the object out, and, indeed! It is a piece of your Joko statue!",
+                "whenDone" : "0"
+                }
+            },
+            {"Clothes": {
+                "description" : "Your clothes - a set of nice boots, pants, and shirt.",
+                "commands": ["inspect", "take", "drop"],
+                "inspect" : "They have seen some use, that's for sure. Stained and patched, but in good condition nonetheless.",
+                "drop": "You take off your clothes and leave them neatly folded on the ground.",
+                "take": "You pick your clothes up, dust them off, and put them on again.",
+                "inventory" : {
+                        "name": "your clothes",
+                        "inInv": "Your clothes - a set of nice boots, pants, and shirt.",
+                        "level": "0",
+                        "key": "4",
+                        "drop": "You take off your clothes and leave them neatly folded on the ground.",
+                        "take": "You pick your clothes up, dust them off, and put them on again."
+                    }
+                }
+            }
+        ],
+        "hint" : ["You need to look around, and maybe take a closer look at something.", "Maybe there's something of value in the bag..?", "How do you think King Joko would feel if you left this piece of him out here, all alone, after all the trouble you're going through to find the pieces..? Maybe you should pocket it, just in case.", "What is the most important thing to do in life? Praise Joko, of course!", "You should attempt to move forward."],
+        "whenDone" : "Your search has paid off! Perhaps, if you follow the trail, you will find more pieces of your statue?",
+        "cheat" : ["i tracks", "o bag", "take statue piece", "praise"]
+    },
+    "1" : {
+        "description" : ["You trudge along in the light of the waning moon. Slowly, the eastern sky starts to lighten - praise Joko, your search will be easier with the sun to light your way! But it is still fairly dark, and you are tired after the previous day of hard, honest work and chasing vandals. Thus, it is with quite a start you realize you've stumbled upon the remains of a makeshift campsite in the folds of the land, a few coals still smoldering where a hasty fire had been cobbled together."],
+        "image" : ["            (",
+"             )",
+"            (  (",
+"                )",
+"          (    (",
+"           ) /\\ ",
+"         (  // | (",
+"       _ -.;_/ \\--._",
+"      (_;-// | \\ \\-'.\\",
+"      ( `.__ _  ___,')",
+"       `'(_ )_)(_)_)'"],
+        "toSee" : ["Looks like your heretics took a break - there's the remnants of a hastily made camp. What for?", "Seems they forgot a few odds and ends on the ground...", "Joko provides! Joko provides pieces of himself!", "The trail leads on. You ought to follow."],
+        "objects" : [
+            {"Campfire" : {
+                "description" : "A hasty pit dug in the sandy soil, not even lined with stones to keep a blaze from spreading. Thin tendrils of smoke drift towards the brightening sky.",
+                "commands" : ["inspect"],
+                "inspect" : "A few hot coals, a few cold coals, the remains of some gravy soup poured on them - nothing out of the ordinary.",
+                "key": "inspect",
+                "keyAction": "It looks like the heretics had a break here. There's a few objects scattered about.",
+                "whenDone": ["1", "2", "3", "4"]
+                }
+            },
+            {"Coin" : {
+                "description" : "A small, round coin. It glints dully.",
+                "commands" : ["inspect", "take", "kick", "drop"],
+                "inspect" : "It is hand-made and dented. Some foreign currency. Bleh! Solid proof you're chasing down your heretics, though.",
+                "take" : "You stuff the coin in your pocket. Better not let anyone know you touched it, ever.",
+                "kick" : "You try to kick the coin, but kicking a coin isn't very easy. It barely moves in the dirt.",
+                "drop" : "You drop the coin, and hope that it hasn't stolen your soul.",
+                "inventory" : {
+                    "name": "foreign coin",
+                    "inInv": "A small, round coin. It glints dully.",
+                    "level": "1",
+                    "key": "1",
+                    "drop": "You drop the coin, and hope that it hasn't stolen your soul.",
+                    "take": "It's irresistible, isn't it..? You reach for the coin again, and there, you hesitate. What would the Mordant Crescent say..? Best not to tell them. You grab the coin and stuff it back into a pocket."
+                    }
+                }
+            },
+            {"Book": {
+                "description": "It probably wasn't theirs to begin with. The cover depicts..something. Looks like an Awakened.",
+                "commands": ["inspect", "read", "drop", "take", "kick"],
+                "inspect": "It looks like that..thing..going on on the cover is a glorification of the art of mummification, and the transition into becoming Awakened.",
+                "read": "Organs must go into their correct jars. Only the heart and head stay in the body.",
+                "drop": "You let the book fall to the ground. It probably wasn't useful anyway. Probably.",
+                "take": "You pick the book up. Why the heretics had it, you don't know, but you have a suspicion. You don't like it. Carefully, you put the book in your satchel.",
+                "kick": "You try to kick the book. Really. Why?",
+                "inventory" : {
+                    "name": "book of the sacred rites",
+                    "inInv": "It probably wasn't theirs to begin with. The cover depicts..something. Looks like an Awakened.",
+                    "level" : "1",
+                    "key": "2",
+                    "drop": "You let the book fall to the ground. It probably wasn't useful anyway. Probably.",
+                    "take": "You pick the book up. Why the heretics had it, you don't know, but you have a suspicion. You don't like it. Carefully, you put the book in your satchel."
+                    }
+                }
+            },
+            {"Chalk": {
+                "description": "A well-used stick of white chalk, not much longer than your thumb.",
+                "commands": ["inspect", "drop", "take", "use"],
+                "inspect": "It looks curiously much like the chalk sticks from the village center...",
+                "drop": "You drop the bit of chalk.",
+                "take": "It'll get your fingers white, but, who cares? You pick up the piece of chalk and place it in your satchel.",
+                "inventory": {
+                    "name": "white chalk stick",
+                    "inInv": "A well-used stick of white chalk, not much longer than your thumb.",
+                    "invUse": {"onLevel": "2", "state": 2, "key": "use", "keyAction": "You scribble 'PRAISE JOKO' on every wall available. As if in answer of this, a piece of the statue falls onto your head. Where it came from, you have no idea.", "use": "You write the praise of Palawa Joko on your chest. For Joko!", "whenDone": "4", "thing": "3", "level": "1"},
+                    "level": "1",
+                    "key": "3",
+                    "drop": "You drop the bit of chalk.",
+                    "take": "It'll get your fingers white, but, who cares? You pick up the piece of chalk and place it in your satchel."
+                    }
+                }
+            },
+            {"Smelly sock": {
+                "description": "It is made from some a very soft material, but it smells too much like the inside of someone's boot. What it's doing out here all alone you can't fathom.",
+                "commands": ["inspect", "take", "drop", "open", "use"],
+                "inspect": "The sock was once blue in color, you think. It has a rich texture, soft and probably warm - too warm for your temperate climate here in Vabbi. Hm...",
+                "take": "You decide to keep the sock.",
+                "drop": "On second thoughts, the sock smells so much, so you drop it.",
+                "open": "There's nothing in the sock anymore. Just more smell, and it's not nice.",
+                "inventory": {
+                    "name": "heretic's sock",
+                    "inInv": "It is made from some a very soft material, but it smells too much like the inside of someone's boot. It is also blue.",
+                    "invUse" : {"onLevel": "4", "state": 1, "key": "use", "keyAction": "You decide to put the smelly sock on Joko, gently pulling it on to one of his feet. It's a tad too big for the small statue. You hope he won't mind the smell.", "use": "You flap the sock in the air, hoping to get some of the bad smell out.", "whenDone": "allDone", "thing": "4", "level": "1"},
+                    "level": "1",
+                    "key": "4",
+                    "take": "You decide to keep the sock.",
+                    "drop": "On second thoughts, the sock smells so much, so you drop it."
+                    },
+                "key": "open",
+                "keyAction": "You fold the edges of the sock back a little, and then turn it upside down, and.. onto your palm spills the torso of your Joko statue!",
+                "whenDone": "5"
+                }
+            },
+            {"Statue bit": {
+                "description": "The glorious chest of Palawa Joko! Sadly, he's missing his legs, arms, and head.",
+                "commands": ["inspect", "take", "drop", "kick"],
+                "inspect": "Such a fine, fine stone torso.",
+                "take": "You pick up the statue piece again. Good for you.",
+                "drop": "How dare you drop a piece of Joko's magnificent statue?! .. apparently like this, because, you drop it to the ground.",
+                "kick": "Seriously..? You try to kick the statue piece? You're no better than the heretics!",
+                "inventory": {
+                    "name": "joko's chest",
+                    "type": "statue",
+                    "inInv": "The glorious chest of Palawa Joko! Sadly, he's missing his legs, arms, and head.",
+                    "level": "1",
+                    "key": "5",
+                    "take": "You pick up the statue piece again. Good for you.",
+                    "drop": "How dare you drop a piece of Joko's magnificent statue?! .. apparently like this, because, you drop it to the ground."
+                },
+                "key": "take",
+                "keyAction": "Ah, praise be! You contemplate hugging the statue chest, but, it is rather small, and you're not sure how Joko would feel about such...intimacy.",
+                "whenDone": "allDone"
+                }}
+        ],
+        "hint" : ["Surely there's something of interest here, if you just take a closer look.", "Might be you have to look within something.", "Remember, don't leave any bit of Joko behind!", "Praise be!"],
+        "whenDone" : "It seems that Joko rewards his faithful servant. It fills you with joy and hope, ready to move on, but.. worry grows in your heart. The tracks left are looping back towards the village!"
+    },
+    "2": {
+        "description": [
+            "The sun has begun to lighten the eastern sky by the time you make it back to the village. You tread lightly, unwilling to wake everyone and alert them to what has been going. At a cursory glance, nothing seems out of order, but as you creep closer to the village center you see...a boulder? rolled in front of the door.",
+            "The sun has begun to lighten the eastern sky by the time you make it back to the village. You tread lightly, unwilling to wake everyone and alert them to what has been going. At a cursory glance, nothing seems out of order, but as you creep closer to the village center you see...a boulder? rolled in front of the door.",
+            "The first room of the village center has always served as a kind of school, where the children are taught to praise Joko and strive for Awakening. A door on the other end leads to the chapel, where the dead are mummified. You barely spare the door a glance, because the walls, with their sacred teachings and praise of Joko, have been desecrated! And someone has painted mustaches on the portraits of Joko! Some of the writing is gibberish, and the rest is just heartbreaking. How can anyone say such thing about King Joko..?",
+            "Ah, much better. Much, much better. It is not the same as it was, but it's pretty good, if you get to say it yourself."
+        ],
+        "image": ["~         ~~          __",
+"       _T      .,,.    ~--~ ^^",
+" ^^   // \\                    ~",
+"      ][O]    ^^      ,-~ ~",
+"   /''-I_I         _II____",
+"__/_  /   \\ ______/ ''   /'\\_,__",
+"  | II--'''' \\,--:--..,_/,.-{ },",
+"; '/__\\,.--';|   |[] .-.| O{ _ }",
+":' |  | []  -|   ''--:.;[,.'\\,/",
+"'  |[]|,.--'' '',   ''-,.    |",
+"  ..    ..-''    ;       ''. '"],
+        "toSee": ["A large boulder blocks the center door. But why?", "You look around. The streets are still empty and quiet. No one saw you shift the boulder, and no one will see you if you go inside. Right..?", "The heresy! The pictures of Joko, of how he bestows magic upon the five races of Tyria, and conquers foes, have mustaches painted on them in chalk, and the teachings on the wall have been tampered with!", "Ahh.. much better. You're feeling pretty good about yourself, and having found the legs of the statue doesn't hurt, either."],
+        "objects": [
+            {"Boulder": {
+                "description": "It is a rather large and hefty boulder, lodged in front of the center door. A track of disturbed sand shows where it has been rolled in.",
+                "commands": ["inspect", "kick", "move"],
+                "inspect": "The boulder is..familiar. You're pretty sure they rolled it in from the village square, where it had been sitting for generations.",
+                "kick": "You kick the boulder. It hurts your foot. You bite your tongue to not scream, and hop around on one leg until the pain subsides.",
+                "move": "You push against the rock, but it doesn't budge anymore.",
+                "key": "move",
+                "keyAction": "How are you going to move this behemoth..? You don't know, but you have to at least try. You rub your hands together, and then you whisper \"praise Joko\" under your breath. With your shoulder against it you push..and find yourself filled with divine inspiration. Miraculously, the boulder rolls away, unblocking the door.",
+                "whenDone": "1"
+                }
+            },
+            {"Door": {
+                "description": "It is an old door, sturdy and a little warped from many years of shifting weather.",
+                "commands": ["inspect", "kick", "open"],
+                "inspect": "You peer closely at the wood, and at the handle. The boulder has scraped it a little, but not much, and you recall fond memories of walking through this door many times yourself, learning of how Joko blessed and protected this world. Praise Joko!",
+                "kick": "You kick the door. Really? Nothing happens.",
+                "open": "You open the door. If it was open, you open it again. How that works, no one is quite sure.",
+                "key": "open",
+                "keyAction": "You turn the knob, and without a groan - the hinges are well-oiled - it swings in. You peer into the darkness beyond. With a deep breath, you cross the threshold and step inside.",
+                "whenDone": ["2", "3"]
+                }
+            },
+            {"Sock": {
+                "description": "A blue sock. It doesn't smell that bad. You're not sure what it's doing within, though.",
+                "commands": ["inspect", "take", "drop", "use"],
+                "inspect": "It is made of a soft material, and dyed rich blue.",
+                "take": "You think it might be a nice sock for colder days, and stuff it into your satchel.",
+                "drop": "The sock was too much of a burden, and you drop it.",
+                "inventory": {
+                    "name": "blue sock",
+                    "inInv": "A soft blue sock. It doesn't smell that bad.",
+                    "invUse" : {"onLevel": "4", "state": 1, "key": "use", "keyAction": "You touch the sock thoughtfully for a second, before pulling it onto one of Joko's feet. It is a nice color. You hope he'll appreciate it. It is also ridiculously oversized for the statue, but that's just semantics.", "use": "You take the sock out and admire its color.", "whenDone": "allDone", "thing": "2", "level": "2"},
+                    "take": "You think it might be a nice sock for colder days, and stuff it into your satchel.",
+                    "drop": "The sock was too much of a burden, and you drop it.",
+                    "level": "2",
+                    "key": "2"
+                    }
+                }
+            },
+            {"Fork": {
+                "description": "Something glints in the faint morning light and catches your eye. Is that a..fork?",
+                "commands": ["inspect", "take", "drop"],
+                "inspect": "It is, indeed, a fork. It looks like a standard issue fork, like the ones used by all villagers.",
+                "take": "You pick up the fork. Who knows when an extra fork could come in handy?",
+                "drop": "On second thoughts, let's not go to Forkelot. You drop it to the ground.",
+                "inventory": {
+                    "name": "random fork",
+                    "inInv": "A standard-issue fork.",
+                    "take": "You pick up the fork. Who knows when an extra fork could come in handy?",
+                    "drop": "On second thoughts, let's not go to Forkelot. You drop it to the ground.",
+                    "level": "2",
+                    "key": "3"
+                }
+            }
+            },
+            {"Statue fragment": {
+                "description": "The legs of Palawa Joko!",
+                "commands": ["inspect", "kick", "drop", "take"],
+                "inspect": "Made from the same smooth stone as the rest of the statue, obviously. It is crafted with great care and attention to detail.",
+                "take": "You pick the legs up again. Good for you.",
+                "drop": "How dare you drop a piece of Palawa Joko?! Heathen!",
+                "kick": "You kick the statue fragment. Being the legs and all, it kicks you right back. What..how..?",
+                "inventory": {
+                    "name": "joko's legs",
+                    "type": "statue",
+                    "inInv": "The legs of Palawa Joko!",
+                    "level": "2",
+                    "key": "4",
+                    "take": "You pick the legs up again. Good for you.",
+                    "drop": "You kick the statue fragment. Being the legs and all, it kicks you right back. What..how..?"
+                },
+                "key": "take",
+                "keyAction": "At last! ",
+                "whenDone": "allDone"
+            }
+            }
+        ],
+        "hint": ["You want to take a look inside, but there is an inconvenient boulder blocking the door.", "Maybe you should try the door?", "You can't just leave the room in this state. Maybe you should try to correct the writings?", "Remember: always pick up pieces of the statue!", "Praise Joko!"],
+        "whenDone": "With the walls in here restored to their former glory - somewhat, at least - it is time to move on. You're worried about what they might've done to the chapel, and open the door leading to it. Your heart picks up its pace and you move down the corridor towards the second door..."
+    },
+    "3": {
+        "description": ["The corridor grows colder the further you walk, or maybe that is just your imagination..? You trail your fingers along the planks of the nearest wall. This is it. Here's the door to the chapel.", "Inside the chapel the air is colder, smells musty, of death, and of unpleasant things. A mummy lays on the center table, awaiting Awakening, most likely. You look around. Now what? What did those filthy heretics do in here..?"],
+        "image": ["88888888888888888888888888888888888888888888888888888888888888888888888",
+"88.._|      | `-.  | `.  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88",
+"88   `-.._  |    |`!  |`.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  88",
+"88      | `-!._  |  `;!  ;. _______________ ,'| .-' |   _!.i'     |  88",
+"88..__  |     |`-!._ | `.| |_______________||.\"'|  _!.;'   |     _|..88",
+"88   |``\"..__ |    |`\";.| i|_|MMMMMMMMMMM|_|'| _!-|   |   _|..-|'    88",
+"88   |      |``--..|_ | `;!|l|MMoMMMMoMMM|1|.'j   |_..!-'|     |     88",
+"88   |      |    |   |`-,!_|_|MMMMP'YMMMM|_||.!-;'  |    |     |     88",
+"88___|______|____!.,.!,.!,!|d|MMMo * loMM|p|,!,.!.,.!..__|_____|_____88",
+"88      |     |    |  |  | |_|MMMMb,dMMMM|_|| |   |   |    |      |  88",
+"88      |     |    |..!-;'i|r|MPYMoMMMMoM|r| |`-..|   |    |      |  88",
+"88      |    _!.-j'  | _!,\"|_|M)(MMMMoMMM|_||!._|  `i-!.._ |      |  88",
+"88     _!.-'|    | _.\"|  !;|1|MbdMMoMMMMM|l|`.| `-._|    |``-.._  |  88",
+"88..-i'     |  _.''|  !-| !|_|MMMoMMMMoMM|_|.|`-. | ``._ |     |``\"..88",
+"88   |      |.|    |.|  !| |u|MoMMMMoMMMM|n||`. |`!   | `\".    |     88",
+"88   |  _.-'  |  .'  |.' |/|_|MMMMoMMMMoM|_|! |`!  `,.|    |-._|     88",
+"88  _!\"'|     !.'|  .'| .'|[@]MMMMMMMMMMM[@] \\|  `. | `._  |   `-._  88",
+"88-'    |   .'   |.|  |/| /                 \\|`.  |`!    |.|      |`-88",
+"88      |_.'|   .' | .' |/                   \\  \\ |  `.  | `._    |  88",
+"88     .'   | .'   |/|  /                     \\ |`!   |`.|    `.  |  88",
+"88  _.'     !'|   .' | /                       \\|  `  |  `.    |`.|  88",
+"88 vanishing point 888888888888888888888888888888888888888888888 fL 888"],
+        "toSee": ["There's a door, not unlike the door into the center itself.", "A mummy lays on a table withing. Four canopic jars are scattered along the walls.", "Are you making a mess in here yet..? Because, you probably will. And then you'll see a mess."],
+        "objects": [
+            {"Door": {
+                "description": "It is old, but well tended to.",
+                "commands": ["inspect", "open"],
+                "inspect": "There's a few marks in the wood, as if someone has been clawing at it. That's..uncanny...",
+                "open": "It's a door. It opens and it closes.",
+                "key": "open",
+                "keyAction": "When you open it, cold air rushes out. The room beyond is dimly lit by candles burned low.",
+                "whenDone": ["1", "2", "5", "6", "9"]
+                }
+            },
+            {"Mummy": {
+                "description": "A mummy is lying on a stone slab, waiting for its coffin. It looks like it might have been disturbed.",
+                "commands": ["inspect"],
+                "inspect": "The linen wraps have been hastily re-wrapped. It seems someone has tampered with the corpse. But why..?",
+                "key": "inspect",
+                "keyAction": "Being familiar with the duty of wrapping the dead, you decide to investigate. As you unwind the bandages you notice that something is, indeed, wrong - the heart is missing! You cast about, looking for it. Also, is that..a sock, on its foot?",
+                "whenDone": "11"
+                }
+            },
+            {"Lung jar": {
+                "description": "A canopic jar. This one is cruedly marked \"lungs\".",
+                "commands": ["inspect", "kick"],
+                "inspect": "It is made of some kind of clay, inlaid with gold and bronze details. It is pretty tall, actually, and almost shaped like a wrapped mummy.",
+                "kick": "You kick the jar, and it breaks into pieces.",
+                "breaks": true,
+                "key": "kick",
+                "keyAction": "The canopy jar shatters, spilling lungs and fluids and salt onto the ground. Eww.",
+                "whenDone": ["3", "4"]
+                }
+            },
+            {"Lung jar slivers": {
+                "description": "Ceramic slivers, from the canopic jar once meant for lungs.",
+                "commands": ["inspect", "take", "drop"],
+                "inspect": "The slivers vary in size and shape. Some are almost exclusively brown ceramic, some are inlaid with metals and patterns.",
+                "take": "You pocket a piece of the shattered jar.",
+                "drop": "You think better of stealing things you've destroyed, and drop the piece.",
+                "inventory": {
+                    "name": "lung jar sliver",
+                    "inInv": "A ceramic sliver with an inlay of gold in cross-hatch patterns.",
+                    "take": "You pocket a piece of the shattered jar.",
+                    "drop": "You think better of stealing things you've destroyed, and drop the piece.",
+                    "level": "3",
+                    "key": "3"
+                    }
+                }
+            },
+            {"Lung": {
+                "description": "A set of somewhat preserved lungs.",
+                "commands": ["inspect", "take", "drop"],
+                "inspect": "They're well on their way of becoming preserved, but.. since everyone is Awakened, and the canopic jars in here are re-used... what actually happens to the organs? Where do they go? Wurm feed? You're not sure.",
+                "take": "You take the lungs. Why not?",
+                "drop": "You decide against carrying the half-preserved organs of another person on your body, and drop them on the ground.",
+                "inventory": {
+                    "name": "lungs",
+                    "inInv": "A set of somewhat preserved lungs.",
+                    "take": "You take the lungs. Why not?",
+                    "drop": "You decide against carrying the half-preserved organs of another person on your body, and drop them on the ground.",
+                    "level": "3",
+                    "key": "4"
+                    }
+                }
+            },
+            {"Intestine jar": {
+                "description": "A short, sturdy, fat vat of sorts. It is made of metal.",
+                "commands": ["inspect", "open", "kick"],
+                "inspect": "You know that this is one of the smellier canopic jars to open. It sits there, menacing.",
+                "open": "You slide back the heavy lid off the vat, holding your breath against the stench. Then, you reach into the ugly mess of guts, looking for the missing heart. Hm.. nope. Not in here.",
+                "kick": "You kick the vat. Something in there sloshes. Not much else happens, except you bruising your foot."
+                }
+            },
+            {"Stomach jar": {
+                "description": "It has a round head, situated upon a stand of sorts. It is made of metal.",
+                "commands": ["inspect", "open", "kick"],
+                "inspect": "Fluids have left stains on the jar. You wonder how many stomachs have gone in there...",
+                "open": "You slide the lid off, holding your breath against the smell.",
+                "kick": "You kick the jar, and even though it has a strange base, it is sturdy enough not to fall.",
+                "key": "open",
+                "keyAction": "You reach into the jar, prepared to go digging again, but you don't have to. There is the heart!",
+                "whenDone": "7"
+                }
+            },
+            {"Heart": {
+                "description": "It is a heart.",
+                "commands": ["inspect", "move"],
+                "inspect": "You hope it hasn't been too damaged by lying in the stomach vat, but as you peer at it in the low light, you can't discern anything out of the ordinary.",
+                "move": "You shouldn't disturb the heart again.",
+                "key": "move",
+                "keyAction": "As you rummage around in the deceased's chest, you find.. a piece of the statue. Indeed, there in the chest cavity is the head and right arm of Palawa Joko.",
+                "whenDone": "8"
+                }
+            },
+            {"Statue part": {
+                "description": "The head and right arm of Palawa Joko, finely sculpted from pale stone.",
+                "commands": ["inspect", "kick", "take", "drop"],
+                "inspect": "There's some blood and gore on it after its stay in a mummy's chest.",
+                "kick": "You kick the statue piece, but even as you do, the hairs on the back of your head stand erect and a chill travels down your spine. Did.. did someone see you do that?",
+                "take": "You pick up the statue piece.",
+                "drop": "You drop a piece of Palawa Joko. Filthy heretic.",
+                "inventory": {
+                    "name": "right arm of joko",
+                    "type": "statue",
+                    "inInv": "The head and right arm of Palawa Joko, finely sculpted from pale stone.",
+                    "take": "You pick up the statue piece.",
+                    "drop": "You drop a piece of Palawa Joko. Filthy heretic.",
+                    "level": "3",
+                    "key": "8"
+                    },
+                "key": "take",
+                "keyAction": "You wipe as much of the blood and bits off the statue piece, before tucking it gently into your satchel.",
+                "whenDone": "allDone"
+                }
+            },
+            {"Liver jar": {
+                "description": "The jar for the liver stands upon four legs. The top of it looks like a huge bulb.",
+                "commands": ["inspect", "kick"],
+                "inspect": "It almost looks like it has a leaf pattern on it...",
+                "kick": "You kick the jar.",
+                "key": "kick",
+                "keyAction": "As your foot connects with it, it unexpectedly topples, spilling its contents onto the floor. Oops.",
+                "whenDone": "10"
+                }
+            },
+            {"Liver": {
+                "description": "It's kind of dark red and blob-shaped.",
+                "commands": ["inspect", "take", "drop"],
+                "inspect": "It smells faintly of ..something unpleasant.",
+                "take": "You pick the sort-of-slimy liver up, and put it in your pack.",
+                "drop": "You decide against carrying a liver with you, and deposit it. You're not too particular about where it ends up.",
+                "inventory": {
+                    "name": "someone's liver",
+                    "inInv": "It's kind of dark red and blob-shaped.",
+                    "take": "You pick the sort-of-slimy liver up, and put it in your pack.",
+                    "drop": "You decide against carrying a liver with you, and deposit it. You're not too particular about where it ends up.",
+                    "level": "3",
+                    "key": "10"
+                    }
+                }
+            },
+            {"Red sock": {
+                "description": "It's a red sock, draped on the mummy's left foot.",
+                "commands": ["inspect", "take", "drop", "use"],
+                "inspect": "It is soft, rather pleasant to touch. It also smells faintly of death.",
+                "take": "You think one can't have too many socks, least of all in bright colors, so you pocket it with a smile.",
+                "drop": "You weren't such a big fan of red socks after all, and toss it away.",
+                "inventory": {
+                    "name": "red sock",
+                    "inInv": "A bright red sock. It is soft and smells of death.",
+                    "invUse" : {"onLevel": "4", "state": 1, "key": "use", "keyAction": "You wonder where Joko would like a red sock, but as you only have the one and don't want to make his socks not match, so you wrap it around his neck like a scarf.", "use": "You feel the sock in your pocket. It's so..nice.", "whenDone": "allDone", "thing": "11", "level": "3"},
+                    "take": "You think one can't have too many socks, least of all in bright colors, so you pocket it with a smile.",
+                    "drop": "You weren't such a big fan of red socks after all, and toss it away.",
+                    "level": "3",
+                    "key": "11"
+                    }
+                }
+            }
+        ],
+        "hint": ["You should open the door.", "You should look for the heart.", "You should look for the heart.", "Don't forget to praise Joko for all he's doing to help you!"],
+        "whenDone": "Ah, at last! You have all four pieces of your Joko statue, and you have - sort of - restored the chapel to order. At least, the heart is in the right place... You look down at the statue pieces you have. Time to fix this, right..? You decide to head out, back to the village square, and the larger-than-life statue of Joko."
+    },
+    "4": {
+        "description": ["The village square is paved with stone, and feel subtly wrong since the large boulder has been moved. But still, the large statue of Palawa Joko fills you with a sense of purpose and, maybe, even excitement. You stop before the statue, and gaze up at it. It is at least three times as tall as you."],
+        "image": ["                ,     :     ,",
+"          '.    ;    :    ;    ,`",
+"      '-.   '.   ;   :   ;   ,`   ,-`",
+"   \"-.   '-.  '.  ;  :  ;  ,`  ,-`   ,-\"",
+"      \"-.   '-. '. ; : ; ,` ,-`   ,-\"",
+" '\"--.   '\"-.  '-.'  '  `.-`  ,-\"`   ,--\"`",
+"      '\"--.  '\"-.   ...   ,-\"`  ,--\"`",
+"           '\"--.  .:::::.  ,--\"`",
+"------------------:::::::------------------"],
+        "toSee": ["The only thing worth looking at is the statue of Palawa Joko."],
+        "objects": [
+            {"Cat": {
+                "description": "A pretty gray tabby cat slinks around one of the houses.",
+                "commands": ["inspect"],
+                "inspect": "You look at the cat. It looks at you."
+                }
+            }
+        ],
+        "hint": ["Praise Joko! That fixes all your problems, honestly.", "Praise be! You did it!"],
+        "whenDone": "And that was that. Your statue has been magically restored, and you are yawning wide enough to swallow the world. Time to go to bed. You tuck the statue under your arm, and waddle off towards your house."
+    },
+    "5": {
+        "description": ["You wake up in your bed. Was it all a dream..?"],
+        "image": ["          ()___",
+"        ()//__/)_________________()",
+"        ||(___)//#/_/#/_/#/_/#()/||",
+"        ||----|#| |#|_|#|_|#|_|| ||",
+"        ||____|_|#|_|#|_|#|_|#||/||",
+"        ||    |#|_|#|_|#|_|#|_||"],
+        "toSee": ["Nothing, move along."],
+        "objects": [
+            {"Statue of Palawa Joko": {
+                "description": "Your statue of King Joko the Eternal Monarch of All.",
+                "commands": ["inspect"],
+                "inspect": "Laying eyes upon the statue, in the full splendor of a new day's light, fills your eyes with tears.",
+                "inventory": {
+                    "name": "joko!",
+                    "inInv": "Your statue of King Joko the Eternal Monarch of All.",
+                    "level": "5",
+                    "thing": "0"
+                },
+                "level": "5",
+                "key": "0"
+                }
+            }
+        ],
+        "hint": ["You are done with the game."],
+        "whenDone": "This is never going to happen."
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "info" : [
+        "Praise be! We live under the everlasting reign of King Joko the Beloved, the last Primeval King. Sadly, your own day-to-day life has been disrupted by foreign heretics, who have broken your small, albeit precious, statue of King Joko...",
+        "King Palawa Joko, the Scourge of Vabbi, is a character from the Guild Wars franchise. Since he has so many statues of himself, I figured, why not make it about finding the pieces of your own statue..? Praise Joko!",
+        "Use the command \"save\" to save your current progress! Simply append \"<filename>.json\" if you wish to save to a different file than your current one."
+    ],
+    "about" : [
+        "Ahai! I am Incitatus! I'm currently studying web programming at BTH, and this little python game is part of the first python course. I hope you'll enjoy it. Praise Joko!"
+    ],
+    "cheat" : [
+        "The shortest route to beat the game:",
+        "i tracks",
+        "o bag",
+        "take statue piece",
+        "praise",
+        "fwd",
+        "i campfire",
+        "take chalk",
+        "o smelly sock",
+        "take statue bit",
+        "praise",
+        "fwd",
+        "move boulder",
+        "o door",
+        "use chalk",
+        "take statue fragment",
+        "praise",
+        "fwd",
+        "o door",
+        "i mummy",
+        "o stomach jar",
+        "move heart",
+        "take statue part",
+        "praise",
+        "fwd",
+        "praise",
+        "and you are done. :)",
+        "\nAlternatively, you can just load the \"cheat file\",",
+        "in which every action has already been completed, and every item picked up.",
+        "Just type load cheatfile.json when prompted to make/load a file."
+    ],
+    "introduction" : {
+        "opening" : "You did your best. You really, really did, as you ran through the grassy fields, up and down slopes - but your best was not enough. The four heretics, each with a piece of your precious statue of King Palawa Joko, escaped you. There was just no chance you were going to catch up to them tonight. Miserable, you kick at the trail they've made. You have little choice but to follow, but not at a sprint..."
+    },
+    "ending": {
+        "end": "As you say, \"Praise be!\" to the magnificent statue, you feel the air stir with magic.. The broken statue in your hands shake and shudder, and with a startled yelp, you drop it. The pieces crawl together, cracks merging seamlessly, before standing up and looking at you.",
+        "kicks": "\"How,\" the statue of Joko says, anger behind the rather monotone voice, \"dare you kick my statue? You are no better than the heretics who broke me!\" His stone fists clench and unclench. \"Bah! You are not worthy of Awakening yet. I should exile you..\" But upon hearing such devastating news, you fall to your knees, crying out in desperation: \"No! No, please, King Joko, please! I live and die to serve you!\" This gives your benevolent monarch pause. \"Very well then\", he grunts, before becoming still. Only stone. You stare at it. What just happened..?",
+        "dialogue": "You meet the eyes of the Joko statue - they are disturbingly alive in such a stony face. \"Well done,\" he finally says. \"That was no small feat.\" Your eyes well with tears. Such high praise! Wouldn't one think a lowly villager beneath the notice of the god-king..? \"Thank you,\" you whisper. King Joko's smaller self regards you. \"You might be worthy of Awakening soon,\" it concludes, before turning motionless, leaving you in stunned silence. You! Awakened! What an honor! As the sun crawls over the horizon, you smile. If so this day is your last among the living, you will enjoy it, and look forward to an eternity of serving the magnificent King Palawa Joko.",
+        "endnote": "Regardless of the mysteries of your undying King, the mystery of the heretics prevail. There had been no further signs of them outside of the chapel, and by now, you're royally tired. It is time to head home, catch some sleep, and deal with the heretics tomorrow."
+    },
+    "levelCommands" : {
+        "d" : "describe", "description" : "describe",
+        "help" : "helpMenu",
+        "fwd" : "fwd", "forward" : "fwd",
+        "b" : "back", "back" : "back",
+        "l" : "look", "look" : "look",
+        "ob" : "objects", "objects" : "objects",
+        "h" : "hint", "hint" : "hint",
+        "c": "cheat", "cheat" : "cheat",
+        "inv" : "inventory", "inventory" : "inventory",
+        "args" : {
+            "describe" : 3,
+            "helpMenu": 0,
+            "fwd" : 2,
+            "back" : 0,
+            "look" : 3,
+            "objects" : 4,
+            "hint" : 3,
+            "cheat" : 4,
+            "inventory" : 0
+        }
+    },
+    "objectCommands" : {
+        "i" : "inspect", "inspect" : "inspect",
+        "o" : "open", "open" : "open",
+        "k" : "kick", "kick" : "kick",
+        "m" : "move", "move" : "move",
+        "r" : "read", "read" : "read",
+        "t" : "take", "take" : "take",
+        "dr" : "drop", "drop" : "drop",
+        "u" : "use", "use" : "use",
+        "save" : "save",
+        "praise" : "praise"
+    },
+    "praises" : {
+        "PSA" : [
+            "Should the first light of this day be your last, rest easy in the knowledge you'll be Awakened in the name of Palawa Joko.",
+            "At the end of every day, be sure to ask yourself, \"Would I be more productive if I was no longer living?\"",
+            "Ask yourself, \"Were all my actions today for the betterment of Elona?\" If not, please report to the Mordant Crescent.",
+            "Your benevolent king has awakened the sun for another fine day under his unerring rule. Praise Joko!",
+            "Rest assured this announcement service will only be used during sleep hours if there is an important message to relay.",
+            "The sun has risen today thanks to your benevolent lord Palawa Joko. Praise be."
+        ],
+        "allDone" : "Praise be to King Joko the Inevitable! Ahh.. it feels better now. Time to move on!"
+    },
+    "helpCommands" : [
+        "\nlevel commands:\n",
+        "d, description: describes the scenery around you, but without much depth",
+        "help: access the command list",
+        "fwd, forward: attempt to move forward to the next level",
+        "b, back: move back to the previous level, if one exists",
+        "l, look: look around you! you're bound to notice details",
+        "ob, object: get a list of objects available",
+        "h, hint: get a relevant hint on how to move on",
+        "c, cheat: automatically complete the level",
+        "praise, praise joko: praise be King Joko the Inevitable! when in doubt, praise him",
+        "\nobject commands:",
+        "must be used with <object>, eg i flowers",
+        "not all objects can be, for example, moved or opened\n",
+        "i, inspect: inspects the object",
+        "o, open: opens the object",
+        "k, kick: kick the object",
+        "m, move: moves the object",
+        "r, read: read the object",
+        "t, take: pick the object up and put it in your inventory",
+        "dr, drop: drop the object from your inventory",
+        "u, use: use the object, only applicable on objects in your inventory",
+        "\ngame commands:\n",
+        "save, save <filename>.json: saves your current progress, include filename if you want to make a new save file",
+        "exit: exits the game - do not forget to save before you exit!"
+    ]
+}
