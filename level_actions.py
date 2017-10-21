@@ -81,11 +81,14 @@ def objects(levelDict, stateDict, num):
     data = game.readSession()
     if data["dropped"]:
         dropped = data["dropped"]
-        for key, value in dropped.items():
-            if value["droppedAt"] == num and value["level"] != num:
-                print(key.capitalize() + ": {desc}".format(
-                    desc=value["inInv"]
-                ))
+        try:
+            for key, value in dropped.items():
+                if value["droppedAt"] == num and value["level"] != num:
+                    print(key.capitalize() + ": {desc}".format(
+                        desc=value["inInv"]
+                    ))
+        except KeyError:
+            pass
     for key, value in stateDict["objects"].items():
         if value["visibility"] >= 0 and value["inInv"] is False and value["droppedElsewhere"] is False:
             key = int(key)

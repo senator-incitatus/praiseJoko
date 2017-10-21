@@ -103,8 +103,10 @@ def lastLevel():
         except KeyError:
             pass
     pieces = len(statues)
-    if pieces < 4:
+    if pieces < 4 and data["gameStats"]["statueDone"] is False:
         print("You've dropped pieces of the statue?! How dare you! Go fetch them this instant!")
+    elif data["gameStats"]["statueDone"] is True:
+        print("Praise Joko!")
     else:
         for parts in statues:
             name = parts["origName"]

@@ -164,8 +164,12 @@ def itemUse(objDict, level, stateDict):
     if useDict["onLevel"] == level:
         try:
             if useDict["key"] == "use":
+                if objDict["itemName"] == "smelly sock":
+                    objStateDict["keyAction"] = False
                 if objStateDict["keyAction"] is False and stateDict["state"] >= useDict["state"]:
                     keyActionUse(useDict, level)
+                else:
+                    print(useDict["use"])
             else:
                 print(useDict["use"])
         except KeyError:
