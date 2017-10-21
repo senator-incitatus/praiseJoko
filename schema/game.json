@@ -218,6 +218,11 @@
                     "visibility": 1,
                     "inInv": false,
                     "droppedElsewhere": false
+                },
+                "1": {
+                    "visibility": 1,
+                    "inInv": false,
+                    "droppedElsewhere": false
                 }
             },
             "allDone": false,

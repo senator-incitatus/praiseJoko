@@ -70,7 +70,7 @@
                     "take" : "You pick up the offending bag again, reattaching it to your belt."
                 },
                 "key" : "open",
-                "keyAction" : "You open the bag, and reach inside. Your hand closes on cool, familiar stone. You feel a flutter in your stomach. Has Joko provided once more..? You pull the object out, and, indeed! It is a piece of your Joko statue!",
+                "keyAction" : "You open the bag, and reach inside. Your hand closes on cool, familiar stone. You feel a flutter in your stomach. Has Joko provided once more..? You pull the object out, and, indeed! It is a piece of your Joko statue!\nYou discover: Statue piece",
                 "whenDone" : "0"
                 }
             },
@@ -163,7 +163,7 @@
                 "inventory": {
                     "name": "white chalk stick",
                     "inInv": "A well-used stick of white chalk, not much longer than your thumb.",
-                    "invUse": {"onLevel": "2", "state": 2, "key": "use", "keyAction": "You scribble 'PRAISE JOKO' on every wall available. As if in answer of this, a piece of the statue falls onto your head. Where it came from, you have no idea.", "use": "You write the praise of Palawa Joko on your chest. For Joko!", "whenDone": "4", "thing": "3", "level": "1"},
+                    "invUse": {"onLevel": "2", "state": 2, "key": "use", "keyAction": "You scribble 'PRAISE JOKO' on every wall available. As if in answer of this, a piece of the statue falls onto your head. Where it came from, you have no idea.\nYou discover: Statue fragment", "use": "You write the praise of Palawa Joko on your chest. For Joko!", "whenDone": "4", "thing": "3", "level": "1"},
                     "level": "1",
                     "key": "3",
                     "drop": "You drop the bit of chalk.",
@@ -188,7 +188,7 @@
                     "drop": "On second thoughts, the sock smells so much, so you drop it."
                     },
                 "key": "open",
-                "keyAction": "You fold the edges of the sock back a little, and then turn it upside down, and.. onto your palm spills the torso of your Joko statue!",
+                "keyAction": "You fold the edges of the sock back a little, and then turn it upside down, and.. onto your palm spills the torso of your Joko statue!\nYou discover: Statue bit",
                 "whenDone": "5"
                 }
             },
@@ -196,7 +196,7 @@
                 "description": "The glorious chest of Palawa Joko! Sadly, he's missing his legs, arms, and head.",
                 "commands": ["inspect", "take", "drop", "kick"],
                 "inspect": "Such a fine, fine stone torso.",
-                "take": "You pick up the statue piece again. Good for you.",
+                "take": "",
                 "drop": "How dare you drop a piece of Joko's magnificent statue?! .. apparently like this, because, you drop it to the ground.",
                 "kick": "Seriously..? You try to kick the statue piece? You're no better than the heretics!",
                 "inventory": {
@@ -295,7 +295,7 @@
                 "description": "The legs of Palawa Joko!",
                 "commands": ["inspect", "kick", "drop", "take"],
                 "inspect": "Made from the same smooth stone as the rest of the statue, obviously. It is crafted with great care and attention to detail.",
-                "take": "You pick the legs up again. Good for you.",
+                "take": "",
                 "drop": "How dare you drop a piece of Palawa Joko?! Heathen!",
                 "kick": "You kick the statue fragment. Being the legs and all, it kicks you right back. What..how..?",
                 "inventory": {
@@ -313,7 +313,7 @@
             }
             }
         ],
-        "hint": ["You want to take a look inside, but there is an inconvenient boulder blocking the door.", "Maybe you should try the door?", "You can't just leave the room in this state. Maybe you should try to correct the writings?", "Remember: always pick up pieces of the statue!", "Praise Joko!"],
+        "hint": ["You want to take a look inside, but there is an inconvenient boulder blocking the door.", "Maybe you should try the door?", "You can't just leave the room in this state. Maybe you should try to correct the writings? You need something to write with.", "Remember: always pick up pieces of the statue!", "Praise Joko!"],
         "whenDone": "With the walls in here restored to their former glory - somewhat, at least - it is time to move on. You're worried about what they might've done to the chapel, and open the door leading to it. Your heart picks up its pace and you move down the corridor towards the second door..."
     },
     "3": {
@@ -429,7 +429,7 @@
                 "inspect": "You hope it hasn't been too damaged by lying in the stomach vat, but as you peer at it in the low light, you can't discern anything out of the ordinary.",
                 "move": "You shouldn't disturb the heart again.",
                 "key": "move",
-                "keyAction": "As you rummage around in the deceased's chest, you find.. a piece of the statue. Indeed, there in the chest cavity is the head and right arm of Palawa Joko.",
+                "keyAction": "You scoop the heart out of the canopic jar, and carry it over to the stone slab, where you proceed to unwrap the mummy's chest. As you rummage around in the deceased's chest, you find.. a piece of the statue. Indeed, there in the chest cavity is the head and right arm of Palawa Joko.\nYou discover: Statue part",
                 "whenDone": "8"
                 }
             },
@@ -438,7 +438,7 @@
                 "commands": ["inspect", "kick", "take", "drop"],
                 "inspect": "There's some blood and gore on it after its stay in a mummy's chest.",
                 "kick": "You kick the statue piece, but even as you do, the hairs on the back of your head stand erect and a chill travels down your spine. Did.. did someone see you do that?",
-                "take": "You pick up the statue piece.",
+                "take": "",
                 "drop": "You drop a piece of Palawa Joko. Filthy heretic.",
                 "inventory": {
                     "name": "right arm of joko",
@@ -521,7 +521,7 @@
                 }
             }
         ],
-        "hint": ["Praise Joko! That fixes all your problems, honestly.", "Praise be! You did it!"],
+        "hint": ["Praise Joko! That fixes all your problems, honestly.", "Praise be! You did it! Maybe you have something to decorate the statue with..?"],
         "whenDone": "And that was that. Your statue has been magically restored, and you are yawning wide enough to swallow the world. Time to go to bed. You tuck the statue under your arm, and waddle off towards your house."
     },
     "5": {
@@ -546,6 +546,12 @@
                 },
                 "level": "5",
                 "key": "0"
+                }
+            },
+            {"Cat": {
+                "description": "A familiar looking gray tabby cat is watching you from the doorway.",
+                "commands": ["inspect"],
+                "inspect": "It is a very pretty cat."
                 }
             }
         ],
